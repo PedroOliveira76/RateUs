@@ -1,0 +1,108 @@
+*{
+    padding: 0%;
+    font-family: 'Overpass', sans-serif;
+}
+body{
+    background-color: hsl(216, 12%, 8%);
+    font-weight: 400px;
+}
+.main{
+   display: flex;
+   align-content: center;
+   justify-content: center;
+   padding: 20px;
+   width:400px;
+   height:auto;
+   margin: 0;
+   box-sizing: border-box;
+   background-color: hsl(213, 19%, 18%);
+   border-radius: 8px;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   margin-right: -50%;
+   transform: translate(-50%, -50%)
+}
+.imgp{
+    display: flex;
+    justify-content: center;
+}
+.icone{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #2C3139; 
+}
+h2{
+    color: hsl(0, 0%, 100%);
+    position: initial;
+    margin: 10px;
+}
+.texto{
+    color: hsl(217, 12%, 63%);
+    margin: 10px;
+    font-size: 15px;
+}
+.option{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.num{
+    color:hsl(0, 0%, 100%);
+    text-align: left;
+    margin-top: 15px;
+    padding: 20px;
+    width: 20px;
+    height: 10px;
+    border: 0px solid;
+    border-radius: 50%;
+    background-color: #2C3139;
+    cursor: pointer;
+}
+.button{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    color:hsl(0, 0%, 100%);
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    width: 100%;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 10px;
+}
+.button:hover{
+    background-color: white;
+    color:hsl(25, 97%, 53%);
+}
+@media screen and (max-width: 425px){
+    .main{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 306px){
+    .main{
+        width: 90%;
+    }
+    .option{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+/* Thank you page*/
+.hty{
+    text-align: center;
+}
+.tyd{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.ty{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #2C3139;
+    font-size: 12px;
+    color: hsl(25, 97%, 53%);
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Interactive rating component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Rating state start -->
+  <section class="main">
+    <div class="container">
+      <h1><img src="images/icon-star.svg" alt="" class="icone">
+      </h1>
+      <h2>How did we do?</h1>
+        <p class="texto">
+          Please let us know how we did with your support request. All feedback is appreciated
+          to help us improve our offering!
+        </p>
+        <div class="option">
+          <button class="num" id="btn1" value="1" onclick="avaliar(1)">1</button>
+          <button class="num" id="btn2" value="2" onclick="avaliar(2)">2</button>
+          <button class="num" id="btn3" value="3" onclick="avaliar(3)">3</button>
+          <button class="num" id="btn4" value="4" onclick="avaliar(4)">4</button>
+          <button class="num" id="btn5" value="5" onclick="avaliar(5)">5</button>
+        </div>
+        <div><input type="submit" class="button" id="enviar" onclick="enviar()"></div>
+    </div>
+  </section>
+<script src="JavaScript.js"></script>
+</body>
+
+</html>
